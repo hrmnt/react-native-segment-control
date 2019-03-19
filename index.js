@@ -126,10 +126,7 @@ const styles = StyleSheet.create({
     width: "100%",
     backgroundColor: "white",
     borderRadius: 6,
-    shadowColor: "black",
-    shadowOffset: { height: 4, width: 0 },
-    shadowOpacity: 0.1,
-    elevation: 3
+    
   },
   separatorStyle: {
     height: 1,
@@ -145,7 +142,7 @@ const styles = StyleSheet.create({
   headerItem: {
     flex: 1,
     alignItems: "center",
-    paddingVertical: 16
+    paddingVertical: 12
   },
   title: {
     fontWeight: "600",
